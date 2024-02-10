@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+
+  background: linear-gradient(10.25turn, #030637, #720455);
+  height: calc(100vh - 1px);
+  font-size: 15px;
+}
+.whole {
+  padding-bottom: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.main1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 30px;
+}
+.maincontainer {
+  position: relative;
+  height: 195px;
+  width: 435px;
+  margin: 20px;
+}
+.thecard {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+}
+.thecard:hover {
+  transform: rotateY(180deg);
+}
+.thefront {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: #ffc728;
+  color: #5e4a4a;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 20px;
+}
+.theback {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: #92195c;
+  color: #ffffff;
+  transform: rotateY(180deg);
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 20px;
+}
+.container {
+  display: block;
+  height: 195px;
+  width: 435px;
+  background: linear-gradient(145deg, #c0a080, #ffcf81);
+  border-radius: 17px;
+  box-shadow: 0px 0px 0px rgba(204, 136, 136, 0.8);
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: left;
+  margin: 20px;
+}
+.container:hover {
+  cursor: pointer;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.8);
+}
+.image img {
+  height: 135px;
+  width: 155px;
+  object-fit: cover;
+  border-radius: 500px;
+  padding: 30px 30px 30px 30px;
+}
+
+.main2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: flex-start;
+}
+h3 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+  padding-top: 20px;
+}
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+h1,
+h4 {
+  color: rgb(206, 169, 50);
+  text-align: center;
+}
+h4 {
+  margin-bottom: 120px;
+}
